@@ -11,7 +11,7 @@ spec:
     targetRevision: argocd-workshop
   destination:
     server: 'https://kubernetes.default.svc'
-    namespace: noam-ns
+    namespace: default
   syncPolicy:
     automated:
       prune: true
